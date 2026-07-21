@@ -1,0 +1,55 @@
+# ==========================================
+# Python
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ==========================================
+# Virtual Environments
+# ==========================================
+venv/
+env/
+.venv/
+ENV/
+
+# ==========================================
+# Environment Variables
+# ==========================================
+.env
+
+# ==========================================
+# IDEs & Editors
+# ==========================================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ==========================================
+# Operating System Files
+# ==========================================
+.DS_Store
+Thumbs.db
+
+
+# ==========================================
+# Generated Files
+# ==========================================
+
+# Temporary forecast graph generated during prediction
+forecast_plot.png
+
+
+# Generated plots and reports
+outputs/
+
+# TensorBoard Logs
+logs/
+
+# Log files
+*.log
+
+
+data/processed/
+*.npy
