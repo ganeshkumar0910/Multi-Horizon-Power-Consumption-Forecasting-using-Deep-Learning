@@ -199,15 +199,15 @@ cd multi-horizon-power-consumption-forecasting
 ### Windows
 
 ```bash
-python -m venv .venv
+py -3.11 -m venv venv
 
-.venv\Scripts\activate
+venv\Scripts\activate
 ```
 
 ### Linux / macOS
 
 ```bash
-python3 -m venv .venv
+python3.11 -m venv .venv
 
 source .venv/bin/activate
 ```
